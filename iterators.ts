@@ -1,7 +1,7 @@
 let test = ["bharath", "mech", 2017];
 
 for (let test1 of test) {
-    console.log(test1);   //for..of  gives values
+    console.log(test1);   //for..of  gives value
 }
 
 for (let test2 in test) {
