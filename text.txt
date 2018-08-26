@@ -1,0 +1,29 @@
+let value: boolean = true;
+
+let bharath: string = "hello";
+
+let data: Number = 35;
+
+(`) => backtik/backquote ex: ` hi bharath its been good.`;
+
+embedded expression `add is ${data+5} val` is same as.."add is " + data+5 + "val"
+
+let x: Array<string>;
+let x: string[];
+let x: [string,number]; ...=>tuple type
+
+let x: any;  //it refers to string,number,boolean 
+
+(...) spread operator
+eg:
+let a = [1,2,3];
+let b = [5,6];
+let c = [0,...a,4,...b,7] //implies  join of arrays....it doesn't allow in functions
+
+in interface readonly x:number //the x value cannot be changed
+let x = [2,3,4,null,undefined]....//it takes best of matches given next value
+
+internal modules are namespaces and external modules are modules
+
+implements means using interface in class which use th value 
+extends means that your are creating a subtype for class for an extend class
